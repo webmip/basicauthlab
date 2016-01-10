@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "PrivateAreaOne"
+AuthUserFile path\.htpasswd
+
+<Limit POST>
+Require valid-user
+</Limit>
+
+
