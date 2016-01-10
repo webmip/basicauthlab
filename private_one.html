@@ -16,7 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="css/logo-nav.css" rel="stylesheet">
-	<link href="css/bootstrap-social.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,14 +27,6 @@
 </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5&appId=166963284009";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -56,10 +47,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://learn-webmiplabs.rhcloud.com/">Go to Labs</a>
+                        <a href="#">Go to Labs</a>
                     </li>
                     <li>
-                        <a href="https://www.webmip.es">Go to webmip</a>
+                        <a href="#">Go to webmip</a>
                     </li>
                 </ul>
             </div>
@@ -72,38 +63,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Basic Auth lab</h1>
-                <p>Please for more info about this lab go to <a href="#">post</a>.</p>
+                <div class="alert alert-success" role="alert">
+				  <a href="#" class="alert-link">EXCELLENT! You completed this level</a>
+				</div>
+				<button type="button" onclick="window.location.href='../basicauthlab'" class="btn btn-info">GO BACK</button>
             </div>
-			<div class="col-lg-6">
-				<div class="panel panel-default">
-				  <div class="panel-heading">
-					<h3 class="panel-title">Private area number one</h3>
-				  </div>
-				  <div class="panel-body">
-					<button type="button" onclick="window.location.href='private_one.html'" class="btn btn-info">ENTER</button>&nbsp;
-				  </div>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="panel panel-default">
-				  <div class="panel-heading">
-					<h3 class="panel-title">Private area number two</h3>
-				  </div>
-				  <div class="panel-body">
-					<button type="button" onclick="window.location.href='private_two.html'" class="btn btn-info">ENTER</button>&nbsp;
-				  </div>
-				</div>
-			</div>
-			<p></p>
-			<div class="col-lg-3">
-			If you like this lab please share<br>
-			<a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Webmip.es" data-via="cg_sanchez" data-size="large" data-hashtags="Pentest" data-dnt="true">Tweet</a>&nbsp;<div class="fb-share-button" data-href="https://www.webmip.es" data-layout="button"></div>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        
-			</div>
-			
-			</div>
+        </div>
     </div>
     <!-- /.container -->
 
